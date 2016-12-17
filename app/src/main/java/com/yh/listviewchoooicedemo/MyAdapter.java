@@ -25,7 +25,7 @@ public class MyAdapter extends BaseAdapter {
     public MyAdapter(Context mContext) {
         this.mContext = mContext;
         mList = new ArrayList<>();
-        isSelectMap = new HashMap<Integer, Boolean>();
+        isSelectMap = new HashMap<>();
     }
 
     private void initMap() {
